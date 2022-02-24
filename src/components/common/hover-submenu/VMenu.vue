@@ -19,13 +19,9 @@
 </template>
 
 <script>
-import VActivator from './VActivator.vue'
 import { shallowRef } from 'vue'
 
 export default {
-  components: {
-    VActivator
-  },
   props: {
     items: Array
   },
